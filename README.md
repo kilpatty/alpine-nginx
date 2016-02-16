@@ -1,9 +1,6 @@
 # Non-Root Nginx Docker Image Running On Alpine Linux.
-<<<<<<< HEAD
-=======
 
 [![](https://badge.imagelayers.io/skilgarriff/alpine_nginx:latest.svg)](https://imagelayers.io/?images=skilgarriff/alpine_nginx:latest 'Get your own badge on imagelayers.io')
->>>>>>> hotfixv0.1
 
 This is a Nginx server Docker build that is optimized for a one-client per container set up. This image is built on top of Alpine-Linx to reduce its image size. Additionally, Nginx is run as non-root for the most security.
 
