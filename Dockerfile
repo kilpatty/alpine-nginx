@@ -11,6 +11,6 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 #Add default config for 1 server.
 COPY ./default.conf /etc/nginx/conf.d/default.conf
 
-USER nginxuser
+USER nobody
 
 CMD ["nginx", "-g", "daemon off;"]
