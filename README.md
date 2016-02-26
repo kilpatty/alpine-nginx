@@ -10,11 +10,11 @@ The default server for this image listens on port 8080 inside of the container. 
 
 This image is installed as an automated build on DockerHub. In order to run this image open port 8080, and then point it to this image.
 
-    docker run -p 80:8080 --name nginx skilgarriff/alpine_linux
+    docker run -p 80:8080 --name nginx skilgarriff/alpine-linux
 
 If you are running this image for development, it is recommended to pull the image tagged dev from DockerHub. See the note on SendFile for the reason why.
 
-    docker run -p 80:8080 --name nginx skilgarriff/alpine_linux:dev
+    docker run -p 80:8080 --name nginx skilgarriff/alpine-linux:dev
 
 ## Notes
 
